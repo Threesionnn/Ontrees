@@ -57,7 +57,7 @@ const ProjectsSection = () => {
     <section className="py-20 px-6 bg-cream-background">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16">
-          <h2 className="font-serif text-4xl md:text-5xl font-semibold text-charcoal-text">
+          <h2 className="text-4xl md:text-5xl font-bold text-charcoal-text">
             Featured Projects
           </h2>
           <p className="text-lg text-muted-foreground mt-4">
@@ -81,11 +81,11 @@ const ProjectsSection = () => {
               </div>
               
               <CardContent className="p-6 flex flex-col flex-grow">
-                <h3 className="font-serif text-2xl font-semibold text-charcoal-text mb-3">
+                <h3 className="text-xl font-semibold text-charcoal-text mb-3">
                   {project.title}
                 </h3>
                 
-                <p className="text-muted-foreground mb-6 leading-relaxed flex-grow">
+                <p className="text-sm text-muted-foreground mb-6 leading-relaxed flex-grow">
                   {project.description}
                 </p>
                 
