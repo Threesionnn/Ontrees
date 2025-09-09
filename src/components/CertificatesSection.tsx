@@ -13,7 +13,7 @@ const CertificatesSection = () => {
       year: "2025",
       type: "Professional",
       description: "Manual testing, bug reporting, test case design",
-      url: "/sertifikat-software-tester.pdf"
+      url: "/serifikat-growia.pdf"
     },
     {
       id: 2,
@@ -48,7 +48,7 @@ const CertificatesSection = () => {
       year: "2022",
       type: "Professional",
       description: "building functional websites using tilda (no-code tools)",
-      url: "/sertifikat-web-dev-nocode.pdf"
+      url: "/sertifikat-edtech.pdf"
     }
   ];
 
@@ -98,9 +98,9 @@ const CertificatesSection = () => {
               </Badge>
               <CardContent 
                 onMouseEnter={() => setSelectedCert(cert.id)} 
-                className="p-6 flex flex-col flex-grow text-center"
+                className="p-6 flex flex-col flex-grow text-left"
               >
-                <Award className="h-12 w-12 text-accent mx-auto mb-4" />
+                <Award className="h-12 w-12 text-accent mx-auto mb-6"/>
                 <div className="flex-grow">
                   <h3 className="text-xl font-semibold text-portfolio-black group-hover:text-accent transition-colors">
                     {cert.title}
